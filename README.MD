@@ -57,7 +57,7 @@ frida --version
 
 ---
 
-## Étape 2 — Installation d'ADB <a name="étape-2"></a>
+## Étape 2 — Installation d'ADB
 
 ### 2.1 Vérification d'ADB
 
@@ -65,7 +65,14 @@ frida --version
 adb version
 ```
 
-
+```bash
+(base) us@MacBook-Pro-de-us Downloads % adb version
+Android Debug Bridge version 1.0.41
+Version 37.0.0-14910828
+Installed as /usr/local/bin/adb
+Running on Darwin 19.6.0 (x86_64)
+(base) us@MacBook-Pro-de-us Downloads % 
+```
 
 ### 2.2 Détection de l'émulateur
 
